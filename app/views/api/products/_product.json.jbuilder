@@ -1,8 +1,8 @@
-json.id @mug.id
-json.name @mug.name
-json.price @mug.price
-json.image_url @mug.image_url
-json.description @mug.description
-json.price_discount @mug.is_discounted?
-json.sales_tax @mug.tax
-json.sales_total @mug.total
+json.id product.id
+json.name product.name
+json.price product.price
+json.image_url product.image_url
+json.description product.description
+json.price_discount product.is_discounted?
+json.sales_tax product.tax
+json.sales_total product.total
